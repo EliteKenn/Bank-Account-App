@@ -86,6 +86,12 @@ public abstract class Account implements iBaseRate{
 		
 	}
 	
+	/**This method assist Checkings being able to produce a unique 12 Digit Debit Card Number. 
+	Since Java can't print random 12 digit number with the Random class. I had to manipulate the data using an algorithm
+	to be able print the 12 digit card number.
+	Generate each digit by calling random.nextInt. For uniqueness, I could've kept track of the random numbers I have used 
+	so far by keeping them in a HashSet and checking if the set contains the number generated each time.
+	*/
 	protected static long generateRandom(int length) {
 	    Random random = new Random();
 	    char[] digits = new char[length];
