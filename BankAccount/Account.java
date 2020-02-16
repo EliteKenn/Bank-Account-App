@@ -9,6 +9,8 @@ public abstract class Account implements iBaseRate{
 	protected String accountNum;
 	protected double rate;
 	protected static int index = 10000;
+	
+	
 	//Constructor to set base properties and initialize the account
 	public Account() {
 	
@@ -26,7 +28,6 @@ public abstract class Account implements iBaseRate{
 	}
 	
 	protected abstract void setRate();
-	
 	
 	private String setAccountNumber() {
 		String lastTwoOfSSN = SSN.substring(SSN.length() - 2, SSN.length());
