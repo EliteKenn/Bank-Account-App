@@ -3,7 +3,7 @@ Scenario: You are a back-end developer and need to create an application to hand
 
 Application will do the following:
 
-Read a .csv file of names, social security numbers, account type, and intial deposit Use a proper data structure to hold all these accounts Both savings and checking accounts share the following properties:
+Read a .csv file of names, social security numbers, account type, and initial deposit Use a proper data structure to hold all these accounts Both savings and checking accounts share the following properties:
 
 deposit()
 
